@@ -22,7 +22,6 @@ require([
           .then(addLayer)
           .catch(rejection);
 
-        // Adds the layer to the map once it loads
         function addLayer(layer) {
           map.add(layer);
         }
